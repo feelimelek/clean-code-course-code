@@ -23,5 +23,4 @@ class DiskStorage:
 
 
 log_storage = DiskStorage('logs')
-
 log_storage.insert_file('test.txt', 'Test')
